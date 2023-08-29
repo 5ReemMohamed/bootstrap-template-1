@@ -1,0 +1,175 @@
+*{
+    box-sizing: border-box;
+}
+
+:root{
+    --color:#f4511e;
+}
+
+body{
+    position: relative;
+}
+
+.bgcolor{
+    background-color: var(--color)!important;
+}
+
+#mynav{
+    padding-bottom: 0rem!important;
+    padding-top: 0rem!important;
+}
+
+
+.nav-link{
+    color:rgba(255,255,255,1)!important;
+    background-color: #f4511e!important;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    letter-spacing: 2px;
+    line-height: 3;
+}
+
+.linksparent{
+    padding-right: 0rem!important;
+    padding-left: 0rem!important;
+}
+
+.navbar-nav .nav-link
+{
+    padding-left: 2rem!important;  
+}
+
+
+
+.nav-link:hover{
+    background-color: white!important;
+    color: var(--color)!important;
+}
+.nav-link.active{
+    background-color: white!important;
+    color: var(--color)!important;
+    border-bottom: none;
+}
+
+
+.div1{
+    font-family: 'Montserrat', sans-serif;
+}
+.fa-solid{
+    color: var(--color);
+    text-shadow: 1px 1px #6c757d;
+}
+
+.h2font{
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 26px;
+}
+
+hr{
+    color: var(--color);
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.pfont{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 26px; 
+}
+
+#slider .italicp{
+    font-style: italic;
+}
+
+.carousel-control-next,
+.carousel-control-prev{
+    top: -20%;
+}
+
+
+.carousel-control-next:hover, .carousel-control-prev:hover{
+    opacity: 1!important;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon{
+    background-image: none;
+    color: var(--color)!important;
+    filter: none!important;
+}
+
+.carousel-indicators [data-bs-target]{
+width: 10px;
+height: 10px;
+border-radius: 50%;
+background-color:#fff!important;
+border: 1px solid var(--color);
+opacity: 1;
+}
+
+.carousel-indicators .active{
+    opacity: 1;
+    background-color: var(--color)!important;
+}
+
+.card-header{
+    background-color: var(--color);
+    border-bottom: 1px solid var(--color);
+    font-family: 'Lato', sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+}
+.mybtn{
+    background-color: var(--color);
+    color: white;
+    border: 1px solid var(--color);
+}
+
+.mybtn:hover{
+    color: var(--color);
+    background-color: #fff;
+    border: 1px solid var(--color);
+}
+
+.myborder{
+    border: 1px solid var(--color);
+}
+
+#contact p{
+    color: gray;
+    font-size: 15px;
+    font-family :'Lato' sans-serif;
+    line-height: 27px;
+    font-weight: 400;
+}
+#contact i{
+    color: gray;
+}
+
+#contact button{
+    color: #333;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+#contact button:hover{
+background-color: #ccc;
+border: 1px solid #727272;
+}
+
+@media  screen and (max-width:577px) {
+    .formdiv{
+        width: 100%!important;
+    }
+
+    .signup{
+        width: 80%!important;
+    }
+    
+}
+
+
